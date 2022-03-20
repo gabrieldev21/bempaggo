@@ -1,8 +1,6 @@
-# Getting Started with Create React App
+# Este projeto foi inicializado com bootstrapped do [Create React App](https://github.com/facebook/create-react-app).
 
-Este projeto foi inicializado com bootstrapped do [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Scripts Disponíveis
 
 No projeto, você pode rodar os seguintes comandos:
 
