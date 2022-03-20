@@ -25,10 +25,13 @@ $ yarn
 
 # Iniciar o projeto
 $ yarn start
+```
 
-# Para testar a aplicação, você pode rodar o seguinte comando:
+Para testar a aplicação, você pode rodar o seguinte comando:
+```bash
 $ yarn test
 ```
+
 O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
 ## Projeto
