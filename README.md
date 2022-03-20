@@ -1,24 +1,36 @@
-# Este projeto foi inicializado com bootstrapped do [Create React App](https://github.com/facebook/create-react-app).
+# loadcontrol
 
-## Scripts Disponíveis
+## Tecnologias
 
-No projeto, você pode rodar os seguintes comandos:
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn start`
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org/)
+- [styled-components](https://styled-components.com/)
+- [useNavigate && useLocale](https://www.npmjs.com/package/react-router-dom)
 
-Roda o app no ambiente de desenvolvimento.\
-Abre [http://localhost:3000](http://localhost:3000) para visualizar no browser.
+## Como executar
 
-A página será renderizada para ver as edições .\
+Clone o projeto e acesse a pasta do mesmo.
 
-### `yarn test`
+```bash
+$ git clone https://github.com/gabrieldev21/bempaggo.git
+$ cd bempaggo
+```
 
-Inicia o executor de testes no modo de visualização.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para iniciá-lo, siga os passos abaixo:
+```bash
+# Instalar as dependências
+$ yarn
 
-### `yarn build`
+# Iniciar o projeto
+$ yarn start
 
-Cria o aplicativo para produção para o diretório `build` .\
+# Para testar a aplicação, você pode rodar o seguinte comando:
+$ yarn test
+```
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
 
-A compilação é minificada e os nomes dos arquivos incluem os hashes.\
-Seu aplicativo está pronto para ser feito o deploy!
+## Projeto
+
+O desafio deste Formulário foi realizado para o teste de frontEnd da [BemPaggo](https://www.bempaggo.com.br/). 
