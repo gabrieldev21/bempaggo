@@ -12,6 +12,8 @@ import {
   PaperForm,
   QuantifyItem,
 } from "./styleds";
+import boxImg from "../../assets/images/boxshaddow.png";
+
 
 export default function Home() {
   const [qttTag, setQttTag] = useState(1);
@@ -46,6 +48,7 @@ export default function Home() {
           <span>
             Formulário para compra de <strong>pacote de adesivos</strong>
           </span>
+          <img src={boxImg} alt="Caixa" />
         </HeaderForm>
 
         <WrapperForm>

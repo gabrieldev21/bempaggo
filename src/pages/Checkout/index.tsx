@@ -1,6 +1,7 @@
 import { useLocation, useNavigate } from "react-router-dom";
 
 import Button from "../../components/Button";
+import { LocationParams } from "./type";
 import {
   ContainerCheckout,
   FooterCheckout,
@@ -8,14 +9,6 @@ import {
   WrapperCheckout,
   WrapperContent,
 } from "./styleds";
-
-interface LocationParams {
-  state?: {
-    qttTag: number;
-    tagNames: string[];
-    comment: string;
-  };
-}
 
 export default function Checkout() {
   const navigate = useNavigate();

@@ -51,6 +51,12 @@ export const HeaderForm = styled.header`
     width: 200px;
     margin-left: 24px;
   }
+  img {
+    width: 150px;
+    height: 145px;
+    opacity: 0.4;
+    margin-left: 120px;
+  }
 `;
 
 export const QuantifyItem = styled.div`
