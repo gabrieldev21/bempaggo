@@ -7,8 +7,8 @@ import {
   FooterCheckout,
   UList,
   WrapperCheckout,
-  WrapperContent,
 } from "./styleds";
+import Header from "../../components/Header";
 
 export default function Checkout() {
   const navigate = useNavigate();
@@ -17,19 +17,22 @@ export default function Checkout() {
   return (
     <ContainerCheckout>
       <WrapperCheckout>
-        <WrapperContent>
-          <UList>
-            Produto
-            {state?.tagNames.map((tagName) => 
-              <li key={tagName}> {state?.qttTag} x {tagName}</li>
-            )}
-          </UList>
+        <Header />
 
-          <UList>
-            Comentário
-            <li>{state?.comment}</li>
-          </UList>
-        </WrapperContent>
+        <UList>
+          Produto
+          {state?.tagNames.map((tagName) => (
+            <li key={tagName}>
+              {" "}
+              {state?.qttTag} x {tagName}
+            </li>
+          ))}
+        </UList>
+
+        <UList>
+          Comentário
+          <li>{state?.comment}</li>
+        </UList>
 
         <FooterCheckout>
           <Button type="button" onClick={() => navigate("/")}>

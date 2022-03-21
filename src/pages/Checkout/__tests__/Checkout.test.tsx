@@ -29,8 +29,13 @@ describe("<Checkout />", () => {
         <Checkout />
       </MemoryRouter>
     );
+    expect(screen.getByText("Formulário para compra de")).toBeInTheDocument();
+    expect(screen.getByText("pacote de adesivos")).toBeInTheDocument();
+    expect(screen.getByAltText("boxImage")).toBeInTheDocument();
+
     expect(screen.getByText("Produto")).toBeInTheDocument();
     expect(screen.getByText("Comentário")).toBeInTheDocument();
+    
     expect(
       screen.getByRole("button", { name: "Finalizar" })
     ).toBeInTheDocument();

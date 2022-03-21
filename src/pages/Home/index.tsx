@@ -7,13 +7,11 @@ import {
   Comments,
   Container,
   FooterForm,
-  HeaderForm,
   WrapperForm,
   PaperForm,
   QuantifyItem,
 } from "./styleds";
-import boxImg from "../../assets/images/boxshaddow.png";
-
+import Header from "../../components/Header";
 
 export default function Home() {
   const [qttTag, setQttTag] = useState(1);
@@ -44,12 +42,7 @@ export default function Home() {
   return (
     <Container>
       <PaperForm onSubmit={handleSubmit}>
-        <HeaderForm>
-          <span>
-            Formulário para compra de <strong>pacote de adesivos</strong>
-          </span>
-          <img src={boxImg} alt="Caixa" />
-        </HeaderForm>
+        <Header />
 
         <WrapperForm>
           <strong>Quais adesivos:</strong>

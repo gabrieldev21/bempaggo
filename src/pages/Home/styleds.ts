@@ -37,28 +37,6 @@ export const CheckBoxContainer = styled.label`
   margin-bottom: 8px;
 `;
 
-export const HeaderForm = styled.header`
-  display: flex;
-  color: #fff;
-  padding: 28px;
-  background-color: rgba(11, 8, 202, 0.719);
-  height: 130px;
-  font-size: 24px;
-  margin-bottom: 12px;
-  border-bottom-left-radius: 250px 40px;
-  border-bottom-right-radius: 300px 100px;
-  span {
-    width: 200px;
-    margin-left: 24px;
-  }
-  img {
-    width: 150px;
-    height: 145px;
-    opacity: 0.4;
-    margin-left: 120px;
-  }
-`;
-
 export const QuantifyItem = styled.div`
   margin-top: 12px;
   button {
