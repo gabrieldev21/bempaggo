@@ -1,13 +1,22 @@
 # BemPaggo - Desafio
 
+## Projeto
+
+O desafio deste Formulário foi realizado para o teste de frontEnd da [BemPaggo](https://www.bempaggo.com.br/). 
+
+## Deploy
+
+Este projeto está atualmente hospedado no [netlify](https://bempaggo-react.netlify.app/)
+
 ## Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [React](https://reactjs.org)
+- [ReactJs](https://reactjs.org)
 - [TypeScript](https://www.typescriptlang.org/)
 - [styled-components](https://styled-components.com/)
 - [useNavigate && useLocale](https://www.npmjs.com/package/react-router-dom)
+- [jest](https://jestjs.io/pt-BR/docs/tutorial-jquery)
 
 ## Como executar
 
@@ -27,13 +36,9 @@ $ yarn
 $ yarn start
 ```
 
+O app estará disponível no seu browser pelo endereço http://localhost:3000.
+
 Para testar a aplicação, você pode rodar o seguinte comando:
 ```bash
 $ yarn test
 ```
-
-O app estará disponível no seu browser pelo endereço http://localhost:3000.
-
-## Projeto
-
-O desafio deste Formulário foi realizado para o teste de frontEnd da [BemPaggo](https://www.bempaggo.com.br/). 
