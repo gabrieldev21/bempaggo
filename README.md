@@ -1,12 +1,12 @@
 # BemPaggo - Desafio
 
+## Preview
+
+O projeto está publicado no [netlify](https://bempaggo-react.netlify.app/) e pode ser acessado através do seguinte link: https://bempaggo-react.netlify.app/
+
 ## Projeto
 
-O desafio deste Formulário foi realizado para o teste de frontEnd da [BemPaggo](https://www.bempaggo.com.br/). 
-
-## Deploy
-
-Este projeto está atualmente hospedado no [netlify](https://bempaggo-react.netlify.app/)
+O desafio deste Formulário foi realizado para o teste de frontEnd da [BemPaggo](https://www.bempaggo.com.br/)
 
 ## Tecnologias
 
